@@ -1,0 +1,65 @@
+body {
+  background-color: #e9ecec;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+ul{
+	list-style-type: none;
+	-webkit-padding-start: 0px;
+}
+li{
+	padding-top: 8px;
+	cursor: pointer;
+	color: darkslateblue;
+}
+#key-input{
+	display:block;
+}
+#container{
+	width: 310px;
+	float:left;
+}
+#dataviz{
+	float:right;
+	display:inline-block;
+}
+
+.chart {
+  margin: 5px;
+}
+ 
+.chart rect {
+  stroke: white;
+  fill: #298d97;
+}
+ 
+.chart text {
+  fill: #000;
+}
+ 
+.chart text.name {
+  fill: #000;
+}
+ 
+.chart line {
+  stroke: #000;
+}
+ 
+.chart .rule {
+  fill: #000;
+}
+ 
+/* removed the while stroke as we don't need it anymore */
+.chart rect {
+  stroke: none;
+}
+ 
+/* a bit of hovering effect for each bar
+.chart rect:hover {
+  fill: #298d97;
+}
+*/
